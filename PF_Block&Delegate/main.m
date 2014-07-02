@@ -7,15 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PFGetBlock.h"
+#import "PFGetDelegate.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        PFGetBlock *block = [[PFGetBlock alloc] init];
+        [block getBlock];
+
+        PFGetDelegate *delegate = [[PFGetDelegate alloc] init];
+        [delegate getDelegate];
     }
     return 0;
 }

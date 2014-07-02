@@ -10,6 +10,10 @@
 		CE0C474D1953E8460038AEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0C474C1953E8460038AEF7 /* Foundation.framework */; };
 		CE0C47501953E8460038AEF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C474F1953E8460038AEF7 /* main.m */; };
 		CE0C47541953E8460038AEF7 /* PF_Block_Delegate.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE0C47531953E8460038AEF7 /* PF_Block_Delegate.1 */; };
+		CE0C475C1953E8690038AEF7 /* PFSetBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C475B1953E8690038AEF7 /* PFSetBlock.m */; };
+		CE0C475F1953E8790038AEF7 /* PFGetBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C475E1953E8790038AEF7 /* PFGetBlock.m */; };
+		CE0C47621953E8820038AEF7 /* PFSetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C47611953E8820038AEF7 /* PFSetDelegate.m */; };
+		CE0C47651953E88A0038AEF7 /* PFGetDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C47641953E88A0038AEF7 /* PFGetDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		CE0C474F1953E8460038AEF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE0C47521953E8460038AEF7 /* PF_Block&Delegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PF_Block&Delegate-Prefix.pch"; sourceTree = "<group>"; };
 		CE0C47531953E8460038AEF7 /* PF_Block_Delegate.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PF_Block_Delegate.1; sourceTree = "<group>"; };
+		CE0C475A1953E8690038AEF7 /* PFSetBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSetBlock.h; sourceTree = "<group>"; };
+		CE0C475B1953E8690038AEF7 /* PFSetBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSetBlock.m; sourceTree = "<group>"; };
+		CE0C475D1953E8790038AEF7 /* PFGetBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGetBlock.h; sourceTree = "<group>"; };
+		CE0C475E1953E8790038AEF7 /* PFGetBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGetBlock.m; sourceTree = "<group>"; };
+		CE0C47601953E8820038AEF7 /* PFSetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSetDelegate.h; sourceTree = "<group>"; };
+		CE0C47611953E8820038AEF7 /* PFSetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSetDelegate.m; sourceTree = "<group>"; };
+		CE0C47631953E88A0038AEF7 /* PFGetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGetDelegate.h; sourceTree = "<group>"; };
+		CE0C47641953E88A0038AEF7 /* PFGetDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGetDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				CE0C474F1953E8460038AEF7 /* main.m */,
+				CE0C475A1953E8690038AEF7 /* PFSetBlock.h */,
+				CE0C475B1953E8690038AEF7 /* PFSetBlock.m */,
+				CE0C475D1953E8790038AEF7 /* PFGetBlock.h */,
+				CE0C475E1953E8790038AEF7 /* PFGetBlock.m */,
+				CE0C47601953E8820038AEF7 /* PFSetDelegate.h */,
+				CE0C47611953E8820038AEF7 /* PFSetDelegate.m */,
+				CE0C47631953E88A0038AEF7 /* PFGetDelegate.h */,
+				CE0C47641953E88A0038AEF7 /* PFGetDelegate.m */,
 				CE0C47531953E8460038AEF7 /* PF_Block_Delegate.1 */,
 				CE0C47511953E8460038AEF7 /* Supporting Files */,
 			);
@@ -139,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0C475F1953E8790038AEF7 /* PFGetBlock.m in Sources */,
+				CE0C47651953E88A0038AEF7 /* PFGetDelegate.m in Sources */,
+				CE0C475C1953E8690038AEF7 /* PFSetBlock.m in Sources */,
 				CE0C47501953E8460038AEF7 /* main.m in Sources */,
+				CE0C47621953E8820038AEF7 /* PFSetDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
