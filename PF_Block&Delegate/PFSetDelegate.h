@@ -12,6 +12,7 @@
 
 @interface PFSetDelegate : NSObject
 
+///代理
 @property (nonatomic, assign) id<PFDelegate> delegate;
 
 /**
@@ -19,16 +20,25 @@
  */
 - (void)callbackDelegate;
 
+/**
+ * @brief 输出代理结果
+ */
+- (NSString *)log;
+
 @end
 
 @protocol PFDelegate <NSObject>
 
-//必须执行
 @required
-- (void)setDelegateRequired:(NSString *)string;
+/**
+ *  @brief 设置代理方法（必须执行）
+ */
+- (void)setDelegateRequired:(PFSetDelegate *)delegate;
 
-//可选执行
 @optional
-- (void)setDelegateOptional:(NSString *)string;
+/**
+ *  @brief 设置代理方法（可选执行）
+ */
+- (void)setDelegateOptional:(PFSetDelegate *)delegate;
 
 @end

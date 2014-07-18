@@ -10,6 +10,9 @@
 
 @interface PFGetBlock : NSObject
 
+/**
+ *  @brief 获取块
+ */
 - (void)getBlock;
 
 @end

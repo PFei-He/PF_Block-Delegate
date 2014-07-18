@@ -11,6 +11,9 @@
 
 @interface PFGetDelegate : NSObject <PFDelegate>
 
+/**
+ *  @brief 获取代理
+ */
 - (void)getDelegate;
 
 @end

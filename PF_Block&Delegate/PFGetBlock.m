@@ -11,10 +11,16 @@
 
 @implementation PFGetBlock
 
+//获取块
 - (void)getBlock
 {
+    //创建块对象
     PFSetBlock *block = [[PFSetBlock alloc] init];
+
+    //调用块方法
     [block setBlock:^(NSString *string) {
+
+        //输出快的结果
         NSLog(@"%@", string);
     }];
 }

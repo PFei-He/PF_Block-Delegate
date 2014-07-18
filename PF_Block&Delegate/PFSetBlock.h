@@ -10,6 +10,9 @@
 
 @interface PFSetBlock : NSObject
 
+/**
+ *  @brief 设置块
+ */
 - (void)setBlock:(void (^)(NSString *string))string;
 
 @end

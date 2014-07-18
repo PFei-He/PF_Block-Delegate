@@ -14,10 +14,12 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
+
+        //块
         PFGetBlock *block = [[PFGetBlock alloc] init];
         [block getBlock];
 
+        //代理
         PFGetDelegate *delegate = [[PFGetDelegate alloc] init];
         [delegate getDelegate];
     }

@@ -11,23 +11,31 @@
 
 @implementation PFGetDelegate
 
+//获取代理
 - (void)getDelegate
 {
+    //创建代理对象
     PFSetDelegate *delegate = [[PFSetDelegate alloc] init];
+
+    //设置代理（必须执行，否则代理方法不会实现。此设置常被初学者遗忘）
     delegate.delegate = self;
+
+    //执行回调代理的方法
     [delegate callbackDelegate];
 }
 
-//delegate必须执行的方法
-- (void)setDelegateRequired:(NSString *)string
+//代理必须执行的方法
+- (void)setDelegateRequired:(PFSetDelegate *)delegate
 {
-    NSLog(@"%@", string);
+    //输出代理的值
+    NSLog(@"%@", delegate.log);
 }
 
-//delegate可选执行的方法
-- (void)setDelegateOptional:(NSString *)string
+//代理可选执行的方法
+- (void)setDelegateOptional:(PFSetDelegate *)delegate
 {
-    NSLog(@"%@", string);
+    //输出代理的值
+    NSLog(@"%@", delegate.log);
 }
 
 @end
