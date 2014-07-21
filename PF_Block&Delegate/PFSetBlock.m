@@ -26,7 +26,7 @@
     if (string) string(self.string);
 }
 
-///获取块的值
+///获取块的值（自定义属性的getter方法）
 - (NSString *)string
 {
     return @"输出块的结果";

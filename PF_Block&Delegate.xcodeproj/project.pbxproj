@@ -86,14 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				CE0C474F1953E8460038AEF7 /* main.m */,
-				CE0C475A1953E8690038AEF7 /* PFSetBlock.h */,
-				CE0C475B1953E8690038AEF7 /* PFSetBlock.m */,
 				CE0C475D1953E8790038AEF7 /* PFGetBlock.h */,
 				CE0C475E1953E8790038AEF7 /* PFGetBlock.m */,
-				CE0C47601953E8820038AEF7 /* PFSetDelegate.h */,
-				CE0C47611953E8820038AEF7 /* PFSetDelegate.m */,
 				CE0C47631953E88A0038AEF7 /* PFGetDelegate.h */,
 				CE0C47641953E88A0038AEF7 /* PFGetDelegate.m */,
+				CE0C475A1953E8690038AEF7 /* PFSetBlock.h */,
+				CE0C475B1953E8690038AEF7 /* PFSetBlock.m */,
+				CE0C47601953E8820038AEF7 /* PFSetDelegate.h */,
+				CE0C47611953E8820038AEF7 /* PFSetDelegate.m */,
 				CE0C47531953E8460038AEF7 /* PF_Block_Delegate.1 */,
 				CE0C47511953E8460038AEF7 /* Supporting Files */,
 			);
@@ -277,6 +277,7 @@
 				CE0C47591953E8460038AEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
