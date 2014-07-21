@@ -20,7 +20,7 @@
     //调用块方法
     [block setBlock:^(NSString *string) {
 
-        //输出快的结果
+        //输出块的结果
         NSLog(@"%@", string);
     }];
 }
