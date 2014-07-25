@@ -17,7 +17,7 @@
     if (object) object(self);
 }
 
-//输出代理结果
+//输出块结果
 - (NSString *)description
 {
     return @"输出块的结果";
