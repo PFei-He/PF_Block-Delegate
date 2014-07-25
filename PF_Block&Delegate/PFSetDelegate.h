@@ -20,11 +20,6 @@
  */
 - (void)callbackDelegate;
 
-/**
- * @brief 输出代理结果
- */
-- (NSString *)log;
-
 @end
 
 @protocol PFDelegate <NSObject>

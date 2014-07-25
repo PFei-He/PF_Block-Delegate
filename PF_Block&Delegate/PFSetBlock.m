@@ -8,26 +8,17 @@
 
 #import "PFSetBlock.h"
 
-@interface PFSetBlock ()
-
-///设置块的值
-@property (nonatomic, copy) NSString *string;
-
-@end
-
 @implementation PFSetBlock
 
-@synthesize string = _string;//自Objective-C的属性进入3.0时代，这句话可写可不写，系统会在编译时自动补全
-
 //设置块
-- (void)setBlock:(void (^)(NSString *string))string
+- (void)setBlock:(void (^)(PFSetBlock *object))object
 {
     //如果块的对象被调用，则返回块的结果
-    if (string) string(self.string);
+    if (object) object(self);
 }
 
-//获取块的值（自定义属性的getter方法）
-- (NSString *)string
+//输出代理结果
+- (NSString *)description
 {
     return @"输出块的结果";
 }

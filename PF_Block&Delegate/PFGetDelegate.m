@@ -28,14 +28,14 @@
 - (void)setDelegateRequired:(PFSetDelegate *)delegate
 {
     //输出代理的值
-    NSLog(@"%@", delegate.log);
+    NSLog(@"%@", delegate);
 }
 
 //代理可选执行的方法
 - (void)setDelegateOptional:(PFSetDelegate *)delegate
 {
     //输出代理的值
-    NSLog(@"%@", delegate.log);
+    NSLog(@"%@", delegate);
 }
 
 @end

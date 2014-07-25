@@ -13,6 +13,6 @@
 /**
  *  @brief 设置块
  */
-- (void)setBlock:(void (^)(NSString *string))string;
+- (void)setBlock:(void (^)(PFSetBlock *object))object;
 
 @end

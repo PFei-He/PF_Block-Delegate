@@ -38,7 +38,7 @@
 }
 
 //输出代理结果
-- (NSString *)log
+- (NSString *)description
 {
     return @"输出代理的结果";
 }
