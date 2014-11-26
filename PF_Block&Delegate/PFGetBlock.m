@@ -18,10 +18,10 @@
     PFSetBlock *block = [[PFSetBlock alloc] init];
 
     //调用块方法
-    [block setBlock:^(PFSetBlock *object) {
+    [block setBlock:^(PFSetBlock *obj) {
 
         //输出块的结果
-        NSLog(@"%@", object);
+        NSLog(@"%@", obj);
     }];
 }
 

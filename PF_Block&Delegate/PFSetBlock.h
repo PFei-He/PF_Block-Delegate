@@ -13,6 +13,6 @@
 /**
  *  @brief 设置块
  */
-- (void)setBlock:(void (^)(PFSetBlock *object))object;
+- (void)setBlock:(void (^)(PFSetBlock *obj))block;
 
 @end

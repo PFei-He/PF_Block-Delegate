@@ -11,10 +11,10 @@
 @implementation PFSetBlock
 
 //设置块
-- (void)setBlock:(void (^)(PFSetBlock *object))object
+- (void)setBlock:(void (^)(PFSetBlock *))block
 {
     //如果块的对象被调用，则返回块的结果
-    if (object) object(self);
+    if (block) block(self);
 }
 
 //输出块结果

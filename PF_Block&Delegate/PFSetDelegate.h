@@ -1,4 +1,4 @@
-
+//
 //  PFSetDelegate.h
 //  PF_Block&Delegate
 //
@@ -28,12 +28,12 @@
 /**
  *  @brief 设置代理方法（必须执行）
  */
-- (void)setDelegateRequired:(PFSetDelegate *)delegate;
+- (void)setDelegateRequired:(PFSetDelegate *)obj;
 
 @optional
 /**
  *  @brief 设置代理方法（可选执行）
  */
-- (void)setDelegateOptional:(PFSetDelegate *)delegate;
+- (void)setDelegateOptional:(PFSetDelegate *)obj;
 
 @end
